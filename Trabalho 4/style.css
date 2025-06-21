@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+.conteiner img{
+    height: 540px;
+    width: 720px;
+    margin: 32px auto;
+}
+
+header{
+    padding: 32px 0px;
+    background-color: red;
+    color: aliceblue;
+}
+
+header h1{
+    font-size: 5em;
+}
+
+header, main h2, aside h2, aside h3, form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header .conteiner, section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 2em;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+main{
+    background-color: rgb(235, 246, 255);
+    padding: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+main a{
+    color: gray;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main p, main h2{
+    margin-left: 64px;
+    margin-bottom: 16px;
+    font-size: 2em;
+    text-align: justify;
+}
+
+main h2{
+    margin-left: 64px;
+    margin-bottom: 16px;
+    font-size: 3em;
+    text-align: start;
+}
+
+main .conteiner{
+    align-items: center;
+}
+
+aside{
+    padding: 32px 0px;
+    background-color: rgb(235, 246, 255);
+    color: rgb(0, 0, 0);
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: brown;
+}
+
+textarea:focus, input:focus{
+    outline-color: red;
+}
+
+footer{
+    background-color: red;
+    color: aliceblue;
+    padding: 16px 0px;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
